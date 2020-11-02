@@ -4,7 +4,7 @@
   top: 0;
   width: 100%;
   height: 3.5rem;
-  background: rgba(255, 147, 47, 0.993);
+  background: #01d1d1;
   padding: 0 1rem;
   display: flex;
   align-items: center;
@@ -22,21 +22,21 @@
 .main-navigation__items ul {
   display: flex;
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .main-navigation__items li {
   margin: 0 1rem;
 }
 
-.main-navigation__items li a {
+.main-navigation__items a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
-.main-navigation__items li a:hover,
-.main-navigation__items li a:active,
-.main-navigation__items li a.active {
-  color: rgb(53, 43, 18);
+.main-navigation__items a:hover,
+.main-navigation__items a:active,
+.main-navigation__items a.active {
+  color: #fdefa0;
 }
